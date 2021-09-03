@@ -5,3 +5,15 @@
     <!-- <Footer class="px-6" /> -->
   </div>
 </template>
+
+<style lang="postcss">
+
+h1 {
+  font-family: 'Audiowide';
+  @apply text-lg;
+}
+
+p, a, li, span {
+  color: #2e2e4e
+}
+</style>

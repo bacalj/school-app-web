@@ -25,11 +25,18 @@ export default {
 
   buildModules: [
     '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts'
   ],
 
   modules: [
   ],
 
   build: {
+  },
+
+  googleFonts: {
+    families: {
+      Audiowide: true,
+    }
   }
 }
