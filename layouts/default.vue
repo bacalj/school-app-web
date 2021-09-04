@@ -8,6 +8,10 @@
 
 <style lang="postcss">
 
+body {
+  @apply bg-gray-100
+}
+
 h1 {
   font-family: 'Audiowide';
   @apply text-lg;

@@ -14,11 +14,11 @@
 
 <style lang="postcss" scoped>
 .navbar {
-  @apply flex flex-col text-center sm:flex-row sm:text-left sm:justify-between bg-white shadow sm:items-baseline w-full bg-indigo-800;
+  @apply flex flex-col text-center sm:flex-row sm:text-left sm:justify-between bg-white shadow sm:items-baseline w-full bg-indigo-700;
 }
 
 a {
-  color:white;
+  color:rgb(240, 240, 240);
   font-family: "Audiowide";
   text-shadow: 0 0 0px #fff, 0 0px #ff4da6, 0 0 0px #ff4da6, 0 0 0px #ff4da6, 0 0 0px #ff4da6, 0 0 0px #ff4da6, 0 0 0px #ff4da6;
   transition-property: text-shadow;
