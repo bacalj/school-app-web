@@ -1,8 +1,8 @@
 <template>
   <div>
-    <client-only>
-      <Login v-if="!loggedIn" />
-    </client-only>
+
+    <Login v-show="!loggedIn" />
+   
     
     <EndeavorsList v-show="loggedIn"/>
   </div>
