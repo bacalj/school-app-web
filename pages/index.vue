@@ -1,10 +1,20 @@
 <template>
   <div>
-    stuff lets deploy
+    <client-only>
+      <Login v-if="!loggedIn" />
+    </client-only>
+    
+    <EndeavorsList v-show="loggedIn"/>
   </div>
 </template>
 
 <script>
-export default {}
+export default {
+  data(){
+    return {
+      loggedIn: false
+    }
+  }
+}
 </script>
 
