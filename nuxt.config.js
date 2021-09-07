@@ -2,7 +2,7 @@ export default {
   target: 'static',
 
   head: {
-    title: 'school-app-web',
+    title: 'campusschool.tech',
     htmlAttrs: {
       lang: 'en'
     },
