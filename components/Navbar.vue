@@ -2,7 +2,7 @@
   <nav class="navbar">
     <div class="my-2">
       <h1>
-        <nuxt-link to="/">Campus School Techfolio</nuxt-link>
+        <nuxt-link to="/">campusschool.tech</nuxt-link>
       </h1>
     </div>
     
