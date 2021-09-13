@@ -19,13 +19,16 @@ export default {
 
   css: [],
 
-  plugins: [],
+  plugins: [
+    { src: '@plugins/groqs.js' }
+  ],
 
   components: true,
 
   buildModules: [
     '@nuxtjs/tailwindcss',
-    '@nuxtjs/google-fonts'
+    '@nuxtjs/google-fonts',
+    '@nuxtjs/sanity/module'
   ],
 
   modules: [
@@ -66,6 +69,17 @@ export default {
         },
       }
     }
+  },
+
+  privateRuntimeConfig: {
+    sanity: {
+      token: process.env.SANITY_TOKEN,
+      withCredentials: true
+    },
+  },
+
+  sanity: {
+    projectId: process.env.SANITY_PROJECT
   },
 
   generate: {
