@@ -1,6 +1,9 @@
 <template>
   <div class="main">
     <Navbar class="px-6" />
+    <pre>
+      {{ $store.state }}
+    </pre>
     <Nuxt class="px-6 pt-6" />
     <!-- <Footer class="px-6" /> -->
   </div>

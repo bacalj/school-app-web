@@ -1,5 +1,6 @@
 <template>
   <div>
+    <h1>Endeavors</h1>
     <ul>
       <li v-for="e in endeavors" :key="e._id">
         <nuxt-link :to="'/endeavors/' + e.slug.current">{{ e.title }}</nuxt-link>
@@ -15,7 +16,7 @@ export default {
   data(){
     return {
       endeavors: [
-        { _id: 'dummy', title: 'Dummy', slug: { current: 'dummy'}}
+
       ]
     }
   },

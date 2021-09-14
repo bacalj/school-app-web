@@ -5,9 +5,7 @@
       <p>{{ endeavor.description }}</p>
     </div>
 
-    <div class="link-submit">
-      submit link here
-    </div>
+    <LinkSubmit :endeavorId="endeavor._id" class="my-12 w-1/3"/>
   </div>
 </template>
 

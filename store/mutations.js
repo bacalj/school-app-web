@@ -7,6 +7,7 @@ export default {
   },
 
   SET_AUTH_USER: (state, { authUser }) => {
+    console.log('calling SET_AUTH_USER')
     state.authUser = {
       uid: authUser.uid,
       email: authUser.email,

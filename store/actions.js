@@ -8,7 +8,8 @@ export default {
 
       try {
         authUser.getIdTokenResult().then((idTokenResult) => {
-         console.log('idTokenResult: ', idTokenResult)
+          console.log('token yest')
+         //console.log('idTokenResult: ', idTokenResult)
         })
       } catch (e) {
         console.error(e)
