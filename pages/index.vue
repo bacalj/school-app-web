@@ -3,8 +3,6 @@
 
     <div v-show="!isLoggedIn">Please log in</div>
 
-    <MaterialsList v-show="isLoggedIn"/>
-
   </div>
 </template>
 

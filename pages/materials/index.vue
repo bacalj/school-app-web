@@ -15,9 +15,7 @@ import { groq } from '@nuxtjs/sanity'
 export default {
   data(){
     return {
-      materials: [
-
-      ]
+      materials: []
     }
   },
 

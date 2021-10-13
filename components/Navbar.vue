@@ -1,11 +1,12 @@
 <template>
   <nav class="navbar">
+
     <div class="my-2">
-      <h1>
-        <nuxt-link to="/">campusschool.tech</nuxt-link>
-      </h1>
+      <div class="flex items-center mr-6">
+        <h1><nuxt-link to="/">campusschool.tech</nuxt-link></h1>
+      </div>
     </div>
-    
+
     <div class="my-2">
       <NavbarMenuItems />
     </div>
