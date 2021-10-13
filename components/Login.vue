@@ -18,7 +18,7 @@ export default {
     }),
 
     userImg(){
-      if (this.$store.state.authUser != null){
+      if (this.isLoggedIn){
         return this.$store.state.authUser.photoURL
       } else {
         return null

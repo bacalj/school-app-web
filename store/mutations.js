@@ -1,9 +1,6 @@
 export default {
   RESET_AUTH_STORE: (state) => {
-    state.authUser = null,
-    state.userStripeRole = null,
-    state.userDomain = null,
-    state.userVerified = null
+    state.authUser = null
   },
 
   SET_AUTH_USER: (state, { authUser }) => {
