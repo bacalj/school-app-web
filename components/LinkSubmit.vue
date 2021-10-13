@@ -7,7 +7,7 @@
 <script>
 export default {
   props: {
-    endeavorId: String
+    materialId: String
   }
 }
 </script>

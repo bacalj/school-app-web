@@ -1,5 +1,5 @@
 export default ({ app }, inject) => {
-  inject('endeavorsQ',
-    `*[_type == "endeavor" && !(_id in path('drafts.**')) ]{ _id, slug, title}`
+  inject('materialsQ',
+    `*[_type == "material" && !(_id in path('drafts.**')) ]{ _id, slug, title}`
   )
 }

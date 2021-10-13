@@ -3,7 +3,7 @@
 
     <div v-show="!isLoggedIn">Please log in</div>
 
-    <EndeavorsList v-show="isLoggedIn"/>
+    <MaterialsList v-show="isLoggedIn"/>
 
   </div>
 </template>
